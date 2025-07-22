@@ -20,12 +20,12 @@ ITERATIONS = 2  # Reduced for better performance
 MEMORY_COST = 512 * 1024  # Reduced to 512MB for better performance
 PARALLELISM = 4  # Reduced for less CPU strain
 MIN_PASSWORD_LENGTH = 12
-LICENSE_FILE_NAME = "license_QS-20250717095311-0612e844.lic"
+LICENSE_FILE_NAME = "YOUR LICENSE KEY.lic"
 NONCE_LOG_FILE = "nonce_log.dat"  # File to log used nonces
 
 # Update with your actual public key
 LICENSE_PUBLIC_KEY = b"""-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAMTx7/y3OMNorpyW4CqrhLzLoHGm13OgQ/iag5tz1hm0=
+PUBLIC KEY OF USER
 -----END PUBLIC KEY-----"""
 
 class LicenseError(Exception):
